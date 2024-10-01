@@ -7,6 +7,7 @@ def update_server_config(file_path,key,value):
         for line in lines:
             if key in line:
                 file.write(key+"="+value+"\n")
+               # print(line)
             else:
                 file.write(line)
     
