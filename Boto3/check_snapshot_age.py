@@ -1,7 +1,7 @@
 import json
 import boto3
 from datetime import datetime, timezone, timedelta
-from dateutil import parser
+#from dateutil import parser
 # import requests
 
 
